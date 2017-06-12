@@ -31,7 +31,6 @@ public class TopLevelActivity extends AppCompatActivity {
                 if(position == 0){
                     Intent i = new Intent(TopLevelActivity.this , DrinksCategoryActivity.class);
                     startActivity(i);
-
                 }
             }
         };
